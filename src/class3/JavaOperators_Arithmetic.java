@@ -11,6 +11,20 @@ public class JavaOperators_Arithmetic {
         double cTemp = (fTemp - 32) * 5/9;
         System.out.println("Degree Celsius = " + cTemp );
 
+        int inc = 6;
+        inc++;
+        System.out.println("Value of inc =" + inc);
+        System.out.println("Value of inc ="  + ++inc);
+        System.out.println("Value of inc =" + inc++);
+        System.out.println("Value of inc =" + inc);
+        int num1 =14;
+        int num2 = num1;
+        System.out.println("value of num3 = " + (num1 + ++num2));
+
+
+
+
+
 
     }
 
