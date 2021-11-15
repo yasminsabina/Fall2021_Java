@@ -67,6 +67,22 @@ public class Homework3 {
         int sentence3_length = sentence3.length();
         System.out.println("Sentence3 length =" + sentence3_length);
 
+        int[] values = {89, 87, 67, 45, 32, 12, 56};
+        String[] names = {"Denver", "happy", "king", "kong", "justice", "learn", "living", "peaceful", "play ground"};
+
+        /*
+            if a name have length more than 4
+                print the name
+                if the index is valid for values-array
+                    print the value at same index from values-array
+         */
+        /**
+         * print the names which contain a
+         */
+
+
+
+
 
 
 
