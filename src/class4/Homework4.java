@@ -55,14 +55,18 @@ public class Homework4 {
             String sentence3 = "Make America Great Again";
 
 
-            String[] sentence3_AfterSplit= sentence3.split("");
-            System.out.println(Arrays.toString(sentence3_AfterSplit));
-            for (int i=0 ; i<= sentence3_AfterSplit.length-1; i++) {
-                sentence3.charAt(0);
+            String[] sentence3_AfterSplit= sentence3.split(" ");
+            String result = "--";
 
+            //result = ""+ sentence3_AfterSplit[0].charAt(0) + sentence3_AfterSplit[1].charAt(0) +sentence3_AfterSplit[2].charAt(0) + sentence3_AfterSplit[3].charAt(0) ;
+        for (int i=0 ; i< sentence3_AfterSplit.length; i++) {
+            String str = sentence3_AfterSplit[i];
+             System.out.println(i + " " + sentence3_AfterSplit[i].charAt(0));
+           // result += str.charAt(0);
+          // System.out.println("result : " + result);
+           }
+            System.out.println(result);
 
-                System.out.println(i);
-            }
 
 
 
