@@ -31,7 +31,7 @@ public class CodeTest {
         CodeTest test = new CodeTest();
         int[]  array = {5, 4, 3, 1, 2};
 
-        System.out.println(Arrays.toString(array));
+       System.out.println(Arrays.toString(array));
     }
 
 
@@ -123,13 +123,13 @@ public class CodeTest {
 
     }
 
-    public static void main(String[] args) {
-        CodeTest input = new CodeTest();
-        int[] intarray = {23, 54, 67, 12, 34, 23, 56};
-        input.removingArray(23,intarray);
-
-
-    }
+//    public static void main(String[] args) {
+//        CodeTest input = new CodeTest();
+//        int[] intarray = {23, 54, 67, 12, 34, 23, 56};
+//        input.removingArray(23,intarray);
+//
+//
+//    }
 
 
 
